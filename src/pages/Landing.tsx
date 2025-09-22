@@ -137,7 +137,7 @@ const Landing = () => {
             </Button>
             <Button 
               size="lg" 
-              variant="outline"
+              variant="secondary"
               onClick={() => navigate('/chat')}
               className="text-lg px-8 py-4"
             >
@@ -292,9 +292,9 @@ const Landing = () => {
             </Button>
             <Button 
               size="lg" 
-              variant="outline"
+              variant="secondary"
               onClick={() => navigate('/chat')}
-              className="text-lg px-8 py-4 border-white/20 text-white hover:bg-white/10"
+              className="text-lg px-8 py-4"
             >
               {t(translations.askFirstQuestion)}
             </Button>
